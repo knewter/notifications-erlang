@@ -1,0 +1,12 @@
+{application, notifications,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { notifications_app, []}},
+  {env, []}
+ ]}.
